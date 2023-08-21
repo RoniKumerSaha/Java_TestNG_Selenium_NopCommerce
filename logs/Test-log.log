@@ -5082,3 +5082,783 @@
 [INFO ] 2023-08-21 16:23:43.676 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (cd0cbec0ab90b8a728b6ffe758ddbe3f)] -> id: register-button]
 [INFO ] 2023-08-21 16:23:44.437 MyWebDriverEventListener:61 -> Element clicked!
 [INFO ] 2023-08-21 16:23:44.438 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:28:28.422 MyWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:28:30.393 MyWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:28:30.433 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (6779352d733ae97f4b4c0588a62f94c1)] -> link text: Register]
+[INFO ] 2023-08-21 23:28:31.586 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:31.587 MyWebDriverEventListener:36 -> Finding element using: By.className: male
+[INFO ] 2023-08-21 23:28:31.617 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (6779352d733ae97f4b4c0588a62f94c1)] -> class name: male]
+[INFO ] 2023-08-21 23:28:31.663 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:31.663 MyWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:28:31.749 MyWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:28:31.828 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:31.867 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:31.891 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:31.913 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:31.970 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (6779352d733ae97f4b4c0588a62f94c1)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "20"]]
+[INFO ] 2023-08-21 23:28:31.993 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:31.993 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:32.020 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:32.039 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:32.064 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:32.111 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (6779352d733ae97f4b4c0588a62f94c1)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:28:32.128 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:32.128 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:32.150 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:32.168 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:32.189 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:32.225 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (6779352d733ae97f4b4c0588a62f94c1)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "1995"]]
+[INFO ] 2023-08-21 23:28:32.242 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:32.243 MyWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:28:32.329 MyWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:28:32.417 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:32.438 MyWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:28:32.512 MyWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:28:32.584 MyWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:28:32.604 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (6779352d733ae97f4b4c0588a62f94c1)] -> id: register-button]
+[INFO ] 2023-08-21 23:28:33.323 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:33.324 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:28:34.652 MyWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:28:36.591 MyWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:28:36.630 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> link text: Register]
+[INFO ] 2023-08-21 23:28:37.764 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:37.764 MyWebDriverEventListener:36 -> Finding element using: By.className: female
+[INFO ] 2023-08-21 23:28:37.798 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> class name: female]
+[INFO ] 2023-08-21 23:28:37.840 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:37.842 MyWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:28:37.970 MyWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:28:38.067 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:38.099 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:38.126 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:38.166 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:38.262 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "9"]]
+[INFO ] 2023-08-21 23:28:38.290 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:38.292 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:38.313 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:38.334 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:38.353 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:38.390 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:28:38.408 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:38.408 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:38.430 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:38.444 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:38.458 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:38.495 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "1999"]]
+[INFO ] 2023-08-21 23:28:38.509 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:38.510 MyWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:28:38.588 MyWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:28:38.660 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:38.679 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:38.689 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> id: Newsletter]
+[INFO ] 2023-08-21 23:28:38.718 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:38.718 MyWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:28:38.769 MyWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:28:38.831 MyWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:28:38.848 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (72aef52dc21f098d0ea9260b1162a80f)] -> id: register-button]
+[INFO ] 2023-08-21 23:28:39.599 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:39.600 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:28:40.901 MyWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:28:42.712 MyWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:28:42.736 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> link text: Register]
+[INFO ] 2023-08-21 23:28:43.823 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:43.824 MyWebDriverEventListener:36 -> Finding element using: By.className: female
+[INFO ] 2023-08-21 23:28:43.850 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> class name: female]
+[INFO ] 2023-08-21 23:28:43.888 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:43.889 MyWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:28:43.969 MyWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:28:44.036 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:44.068 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:44.086 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:44.105 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:44.148 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "3"]]
+[INFO ] 2023-08-21 23:28:44.170 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:44.170 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:44.187 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:44.205 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:44.221 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:44.253 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:28:44.269 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:44.269 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:44.291 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:44.310 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:44.332 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:44.367 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "2000"]]
+[INFO ] 2023-08-21 23:28:44.382 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:44.383 MyWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:28:44.459 MyWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:28:44.536 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:44.555 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:44.565 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> id: Newsletter]
+[INFO ] 2023-08-21 23:28:44.600 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:44.601 MyWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:28:44.670 MyWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:28:44.735 MyWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:28:44.749 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (3ef3cf15f3ac5d3a77fdcac7a0e749ff)] -> id: register-button]
+[INFO ] 2023-08-21 23:28:45.472 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:45.472 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:28:46.672 MyWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:28:48.426 MyWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:28:48.450 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (078cc702405f2eb25f701c83af0e8d81)] -> link text: Register]
+[INFO ] 2023-08-21 23:28:49.562 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:49.563 MyWebDriverEventListener:36 -> Finding element using: By.className: male
+[INFO ] 2023-08-21 23:28:49.584 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (078cc702405f2eb25f701c83af0e8d81)] -> class name: male]
+[INFO ] 2023-08-21 23:28:49.616 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:49.616 MyWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:28:49.697 MyWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:28:49.771 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:49.797 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:49.816 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:49.840 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:49.893 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (078cc702405f2eb25f701c83af0e8d81)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "2"]]
+[INFO ] 2023-08-21 23:28:49.920 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:49.921 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:49.942 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:49.956 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:49.970 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:50.010 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (078cc702405f2eb25f701c83af0e8d81)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:28:50.033 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:50.033 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:50.058 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:50.074 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:50.089 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:50.121 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (078cc702405f2eb25f701c83af0e8d81)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "2001"]]
+[INFO ] 2023-08-21 23:28:50.135 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:50.136 MyWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:28:50.210 MyWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:28:50.282 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:50.303 MyWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:28:50.370 MyWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:28:50.436 MyWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:28:50.449 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (078cc702405f2eb25f701c83af0e8d81)] -> id: register-button]
+[INFO ] 2023-08-21 23:28:51.868 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:51.868 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:28:52.898 MyWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:28:54.922 MyWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:28:54.955 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> link text: Register]
+[INFO ] 2023-08-21 23:28:56.095 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:56.095 MyWebDriverEventListener:36 -> Finding element using: By.className: female
+[INFO ] 2023-08-21 23:28:56.113 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> class name: female]
+[INFO ] 2023-08-21 23:28:56.150 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:56.150 MyWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:28:56.224 MyWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:28:56.288 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:56.313 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:56.332 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:56.353 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:28:56.393 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "10"]]
+[INFO ] 2023-08-21 23:28:56.421 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:56.421 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:56.444 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:56.464 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:56.479 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:28:56.517 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:28:56.531 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:56.532 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:56.553 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:56.566 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:56.578 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:28:56.608 MyWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "1990"]]
+[INFO ] 2023-08-21 23:28:56.622 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:56.622 MyWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:28:56.695 MyWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:28:56.769 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:56.786 MyWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:28:56.795 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> id: Newsletter]
+[INFO ] 2023-08-21 23:28:56.823 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:56.823 MyWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:28:56.883 MyWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:28:56.938 MyWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:28:56.954 MyWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (7d95681dbea422d1d71db53202f684b2)] -> id: register-button]
+[INFO ] 2023-08-21 23:28:57.805 MyWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:28:57.805 MyWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:30:48.921 MyWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:30:50.679 MyWebDriverEventListener:31 -> Page title is: nopCommerce demo store
+[INFO ] 2023-08-21 23:34:47.142 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:34:49.174 CustomWebDriverEventListener:31 -> Page title is: nopCommerce demo store
+[INFO ] 2023-08-21 23:36:18.482 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:36:20.488 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:36:20.526 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:36:20.714 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:36:22.057 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:22.061 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:36:22.087 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:36:22.736 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:22.736 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:36:22.811 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:36:22.902 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[contains(@id,'add-to-cart-button')]
+[INFO ] 2023-08-21 23:36:22.923 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: //button[contains(@id,'add-to-cart-button')]]
+[INFO ] 2023-08-21 23:36:22.966 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:22.977 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:36:23.510 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:36:24.051 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:36:24.181 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:36:24.203 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> link text: shopping cart]
+[INFO ] 2023-08-21 23:36:24.703 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:24.704 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:36:24.758 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:36:24.807 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> id: termsofservice]
+[INFO ] 2023-08-21 23:36:24.880 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:24.881 CustomWebDriverEventListener:36 -> Finding element using: By.id: checkout
+[INFO ] 2023-08-21 23:36:24.925 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> id: checkout]
+[INFO ] 2023-08-21 23:36:25.714 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:25.715 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[text()='Checkout as Guest']
+[INFO ] 2023-08-21 23:36:25.750 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: //button[text()='Checkout as Guest']]
+[INFO ] 2023-08-21 23:36:26.834 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:26.836 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_FirstName
+[INFO ] 2023-08-21 23:36:26.928 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_LastName
+[INFO ] 2023-08-21 23:36:27.024 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Email
+[INFO ] 2023-08-21 23:36:27.141 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Company
+[INFO ] 2023-08-21 23:36:27.244 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:36:27.267 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:36:27.285 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:36:27.302 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:36:27.347 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> id: BillingNewAddress_CountryId]] -> xpath: .//option[normalize-space(.) = "Bangladesh"]]
+[INFO ] 2023-08-21 23:36:27.374 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:27.374 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_City
+[INFO ] 2023-08-21 23:36:27.461 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Address1
+[INFO ] 2023-08-21 23:36:27.591 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_ZipPostalCode
+[INFO ] 2023-08-21 23:36:27.665 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_PhoneNumber
+[INFO ] 2023-08-21 23:36:27.808 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:36:27.835 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: (//button[text()='Continue' ])[1]]
+[INFO ] 2023-08-21 23:36:27.900 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:27.903 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:36:28.456 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:36:28.523 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Next Day Air ($0.00)']
+[INFO ] 2023-08-21 23:36:28.556 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: //label[text()='Next Day Air ($0.00)']]
+[INFO ] 2023-08-21 23:36:28.615 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:28.615 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:36:28.637 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: (//button[text()='Continue' ])[3]]
+[INFO ] 2023-08-21 23:36:28.671 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:28.672 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:36:29.215 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:36:29.263 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Credit Card']
+[INFO ] 2023-08-21 23:36:29.291 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: //label[text()='Credit Card']]
+[INFO ] 2023-08-21 23:36:29.326 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:29.326 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:36:29.344 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: (//button[text()='Continue' ])[4]]
+[INFO ] 2023-08-21 23:36:29.373 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:29.373 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:36:29.914 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:36:29.985 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:36:30.040 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:36:30.092 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:36:30.146 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:36:30.230 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardholderName
+[INFO ] 2023-08-21 23:36:30.370 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:36:30.403 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:36:30.426 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:36:30.452 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:36:30.502 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> id: ExpireMonth]] -> xpath: .//option[@value = "2"]]
+[INFO ] 2023-08-21 23:36:30.529 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:30.529 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:36:30.559 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:36:30.592 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:36:30.634 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:36:30.686 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> id: ExpireYear]] -> xpath: .//option[normalize-space(.) = "2024"]]
+[INFO ] 2023-08-21 23:36:30.705 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:30.706 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardNumber
+[INFO ] 2023-08-21 23:36:30.805 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardCode
+[INFO ] 2023-08-21 23:36:30.910 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:36:30.941 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: (//button[text()='Continue' ])[5]]
+[INFO ] 2023-08-21 23:36:31.000 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:31.001 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:36:31.570 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:36:31.613 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:36:31.631 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (4f4f91449a4efb365879d6331f89424e)] -> xpath: (//button[text()='Confirm'])]
+[INFO ] 2023-08-21 23:36:31.664 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:36:31.664 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:36:32.222 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:36:32.778 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:36:32.803 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@Class='section order-completed']/div
+[INFO ] 2023-08-21 23:37:49.814 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:37:52.090 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:37:52.121 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:37:52.313 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:37:53.934 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:53.935 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:37:53.970 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:37:54.717 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:54.718 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:37:54.832 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:37:54.940 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[contains(@id,'add-to-cart-button')]
+[INFO ] 2023-08-21 23:37:55.002 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> xpath: //button[contains(@id,'add-to-cart-button')]]
+[INFO ] 2023-08-21 23:37:55.062 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:55.066 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:37:55.612 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:37:55.743 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:37:55.808 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> link text: shopping cart]
+[INFO ] 2023-08-21 23:37:56.301 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:56.302 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:37:56.380 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:37:56.418 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> id: termsofservice]
+[INFO ] 2023-08-21 23:37:56.487 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:56.487 CustomWebDriverEventListener:36 -> Finding element using: By.id: checkout
+[INFO ] 2023-08-21 23:37:56.529 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> id: checkout]
+[INFO ] 2023-08-21 23:37:57.786 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:57.786 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[text()='Checkout as Guest']
+[INFO ] 2023-08-21 23:37:57.830 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (862cdce19c16d202fda3e639e3850193)] -> xpath: //button[text()='Checkout as Guest']]
+[INFO ] 2023-08-21 23:37:58.889 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:37:58.892 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_FirstName
+[INFO ] 2023-08-21 23:38:55.444 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:38:57.630 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:38:57.691 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:38:57.866 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:38:59.402 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:38:59.403 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:38:59.431 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:39:00.192 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:00.193 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:39:00.268 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:39:00.396 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[contains(@id,'add-to-cart-button')]
+[INFO ] 2023-08-21 23:39:00.450 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: //button[contains(@id,'add-to-cart-button')]]
+[INFO ] 2023-08-21 23:39:00.502 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:00.514 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:39:01.085 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:39:01.200 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:39:01.250 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> link text: shopping cart]
+[INFO ] 2023-08-21 23:39:01.794 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:01.795 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:39:01.858 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:39:01.914 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> id: termsofservice]
+[INFO ] 2023-08-21 23:39:01.981 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:01.981 CustomWebDriverEventListener:36 -> Finding element using: By.id: checkout
+[INFO ] 2023-08-21 23:39:02.011 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> id: checkout]
+[INFO ] 2023-08-21 23:39:03.260 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:03.261 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[text()='Checkout as Guest']
+[INFO ] 2023-08-21 23:39:03.299 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: //button[text()='Checkout as Guest']]
+[INFO ] 2023-08-21 23:39:04.427 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:04.430 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_FirstName
+[INFO ] 2023-08-21 23:39:04.499 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_LastName
+[INFO ] 2023-08-21 23:39:04.577 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Email
+[INFO ] 2023-08-21 23:39:04.686 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Company
+[INFO ] 2023-08-21 23:39:04.790 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:39:04.839 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:39:04.879 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:39:04.949 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:39:05.076 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> id: BillingNewAddress_CountryId]] -> xpath: .//option[normalize-space(.) = "Bangladesh"]]
+[INFO ] 2023-08-21 23:39:05.136 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:05.136 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_City
+[INFO ] 2023-08-21 23:39:05.283 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Address1
+[INFO ] 2023-08-21 23:39:05.393 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_ZipPostalCode
+[INFO ] 2023-08-21 23:39:05.501 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_PhoneNumber
+[INFO ] 2023-08-21 23:39:05.567 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:39:05.583 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: (//button[text()='Continue' ])[1]]
+[INFO ] 2023-08-21 23:39:05.615 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:05.617 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:39:06.156 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:39:06.237 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Next Day Air ($0.00)']
+[INFO ] 2023-08-21 23:39:06.261 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: //label[text()='Next Day Air ($0.00)']]
+[INFO ] 2023-08-21 23:39:06.300 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:06.300 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:39:06.328 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: (//button[text()='Continue' ])[3]]
+[INFO ] 2023-08-21 23:39:06.366 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:06.366 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:39:06.900 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:39:06.936 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Credit Card']
+[INFO ] 2023-08-21 23:39:06.955 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: //label[text()='Credit Card']]
+[INFO ] 2023-08-21 23:39:06.997 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:06.997 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:39:07.027 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c9487cffe1d5c03600e167dae21d0ca5)] -> xpath: (//button[text()='Continue' ])[4]]
+[INFO ] 2023-08-21 23:39:07.084 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:07.085 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:39:07.642 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:39:20.755 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:39:23.109 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:39:23.144 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:39:23.307 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (127862b30ea6317e38543dfbd8a708e1)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:39:25.746 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:25.748 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:39:25.780 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (127862b30ea6317e38543dfbd8a708e1)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:39:26.052 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:39:26.053 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:40:18.943 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:40:21.455 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:40:21.486 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:40:21.661 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (5b84883ff257502a21c577ee00ee029e)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:40:23.250 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:40:23.252 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:40:23.285 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (5b84883ff257502a21c577ee00ee029e)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:40:24.486 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:40:24.487 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:41:28.401 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:41:30.174 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:41:30.215 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:41:30.380 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (dde5fa32aaf8296839577d73e1eeac4b)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:41:43.146 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:41:44.953 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:41:44.995 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:41:45.160 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:41:46.532 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:46.533 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:41:46.557 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:41:47.765 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:47.766 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:41:47.843 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:41:47.938 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[contains(@id,'add-to-cart-button')]
+[INFO ] 2023-08-21 23:41:47.976 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: //button[contains(@id,'add-to-cart-button')]]
+[INFO ] 2023-08-21 23:41:48.018 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:48.025 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:41:48.569 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:41:48.641 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:41:48.666 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> link text: shopping cart]
+[INFO ] 2023-08-21 23:41:49.137 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:49.138 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:41:49.215 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:41:49.254 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> id: termsofservice]
+[INFO ] 2023-08-21 23:41:49.313 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:49.313 CustomWebDriverEventListener:36 -> Finding element using: By.id: checkout
+[INFO ] 2023-08-21 23:41:49.359 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> id: checkout]
+[INFO ] 2023-08-21 23:41:50.064 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:50.065 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[text()='Checkout as Guest']
+[INFO ] 2023-08-21 23:41:50.112 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: //button[text()='Checkout as Guest']]
+[INFO ] 2023-08-21 23:41:51.169 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:51.170 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_FirstName
+[INFO ] 2023-08-21 23:41:51.254 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_LastName
+[INFO ] 2023-08-21 23:41:51.388 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Email
+[INFO ] 2023-08-21 23:41:51.574 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Company
+[INFO ] 2023-08-21 23:41:51.721 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:41:51.757 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:41:51.798 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:41:51.843 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:41:51.911 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> id: BillingNewAddress_CountryId]] -> xpath: .//option[normalize-space(.) = "Bangladesh"]]
+[INFO ] 2023-08-21 23:41:51.939 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:51.940 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_City
+[INFO ] 2023-08-21 23:41:52.021 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Address1
+[INFO ] 2023-08-21 23:41:52.175 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_ZipPostalCode
+[INFO ] 2023-08-21 23:41:52.276 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_PhoneNumber
+[INFO ] 2023-08-21 23:41:52.396 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:41:52.420 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: (//button[text()='Continue' ])[1]]
+[INFO ] 2023-08-21 23:41:52.480 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:52.481 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:41:53.024 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:41:53.102 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Next Day Air ($0.00)']
+[INFO ] 2023-08-21 23:41:53.140 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: //label[text()='Next Day Air ($0.00)']]
+[INFO ] 2023-08-21 23:41:53.187 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:53.187 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:41:53.210 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: (//button[text()='Continue' ])[3]]
+[INFO ] 2023-08-21 23:41:53.243 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:53.243 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:41:53.784 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:41:53.828 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Credit Card']
+[INFO ] 2023-08-21 23:41:53.843 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: //label[text()='Credit Card']]
+[INFO ] 2023-08-21 23:41:53.869 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:53.870 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:41:53.882 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: (//button[text()='Continue' ])[4]]
+[INFO ] 2023-08-21 23:41:53.904 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:53.904 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:41:54.451 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:41:54.494 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:41:54.517 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:41:54.538 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:41:54.562 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:41:54.628 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardholderName
+[INFO ] 2023-08-21 23:41:54.765 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:41:54.792 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:41:54.814 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:41:54.840 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:41:54.890 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> id: ExpireMonth]] -> xpath: .//option[@value = "2"]]
+[INFO ] 2023-08-21 23:41:54.914 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:54.916 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:41:54.948 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:41:54.981 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:41:55.018 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:41:55.073 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> id: ExpireYear]] -> xpath: .//option[normalize-space(.) = "2024"]]
+[INFO ] 2023-08-21 23:41:55.090 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:55.090 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardNumber
+[INFO ] 2023-08-21 23:41:55.162 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardCode
+[INFO ] 2023-08-21 23:41:55.218 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:41:55.237 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: (//button[text()='Continue' ])[5]]
+[INFO ] 2023-08-21 23:41:55.269 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:55.270 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:41:55.813 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:41:55.860 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:41:55.880 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (255fd7ef84dde557e50e3bc736a80fd5)] -> xpath: (//button[text()='Confirm'])]
+[INFO ] 2023-08-21 23:41:55.916 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:41:55.916 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:41:56.459 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:41:57.358 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:41:57.379 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@Class='section order-completed']/div
+[INFO ] 2023-08-21 23:43:12.163 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:12.163 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:12.163 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:15.117 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:43:15.132 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Electronics ']
+[INFO ] 2023-08-21 23:43:15.178 CustomWebDriverEventListener:31 -> Page title is: nopCommerce demo store
+[INFO ] 2023-08-21 23:43:15.203 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Cell phones ']
+[INFO ] 2023-08-21 23:43:15.207 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c26e5b168f01770a147d6ba0bd1044a5)] -> link text: Register]
+[INFO ] 2023-08-21 23:43:15.378 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: //a[text()='Cell phones ']]
+[INFO ] 2023-08-21 23:43:16.355 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:16.356 CustomWebDriverEventListener:36 -> Finding element using: By.className: male
+[INFO ] 2023-08-21 23:43:16.412 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c26e5b168f01770a147d6ba0bd1044a5)] -> class name: male]
+[INFO ] 2023-08-21 23:43:16.466 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:16.468 CustomWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:43:16.604 CustomWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:43:16.724 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:16.761 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:16.794 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:16.843 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:16.885 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:16.888 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //a[text()='Nokia Lumia 1020']
+[INFO ] 2023-08-21 23:43:16.920 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: //a[text()='Nokia Lumia 1020']]
+[INFO ] 2023-08-21 23:43:16.944 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c26e5b168f01770a147d6ba0bd1044a5)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "20"]]
+[INFO ] 2023-08-21 23:43:16.989 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:16.990 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:17.028 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:17.057 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:17.096 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:17.170 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c26e5b168f01770a147d6ba0bd1044a5)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:43:17.204 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:17.205 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:17.249 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:17.290 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:17.335 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:17.432 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c26e5b168f01770a147d6ba0bd1044a5)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "1995"]]
+[INFO ] 2023-08-21 23:43:17.452 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:17.456 CustomWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:43:17.612 CustomWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:43:17.669 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:17.669 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:43:17.717 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:17.753 CustomWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:43:17.756 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //input[@aria-label='Enter a quantity']
+[INFO ] 2023-08-21 23:43:17.858 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[contains(@id,'add-to-cart-button')]
+[INFO ] 2023-08-21 23:43:17.859 CustomWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:43:17.879 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: //button[contains(@id,'add-to-cart-button')]]
+[INFO ] 2023-08-21 23:43:17.921 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:17.929 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:43:17.944 CustomWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:43:17.974 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c26e5b168f01770a147d6ba0bd1044a5)] -> id: register-button]
+[INFO ] 2023-08-21 23:43:18.496 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:43:18.586 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: shopping cart
+[INFO ] 2023-08-21 23:43:18.628 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> link text: shopping cart]
+[INFO ] 2023-08-21 23:43:18.749 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:18.749 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:43:19.180 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:19.181 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:43:19.241 CustomWebDriverEventListener:36 -> Finding element using: By.id: termsofservice
+[INFO ] 2023-08-21 23:43:19.265 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> id: termsofservice]
+[INFO ] 2023-08-21 23:43:19.336 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:19.336 CustomWebDriverEventListener:36 -> Finding element using: By.id: checkout
+[INFO ] 2023-08-21 23:43:19.368 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> id: checkout]
+[INFO ] 2023-08-21 23:43:20.034 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:20.110 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:20.112 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //button[text()='Checkout as Guest']
+[INFO ] 2023-08-21 23:43:20.152 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: //button[text()='Checkout as Guest']]
+[INFO ] 2023-08-21 23:43:21.304 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:21.305 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_FirstName
+[INFO ] 2023-08-21 23:43:21.389 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_LastName
+[INFO ] 2023-08-21 23:43:21.491 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Email
+[INFO ] 2023-08-21 23:43:21.589 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Company
+[INFO ] 2023-08-21 23:43:21.695 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:43:21.723 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:43:21.762 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:43:21.793 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_CountryId
+[INFO ] 2023-08-21 23:43:21.847 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:43:21.890 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> link text: Register]
+[INFO ] 2023-08-21 23:43:21.904 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> id: BillingNewAddress_CountryId]] -> xpath: .//option[normalize-space(.) = "Bangladesh"]]
+[INFO ] 2023-08-21 23:43:21.940 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:21.940 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_City
+[INFO ] 2023-08-21 23:43:22.053 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_Address1
+[INFO ] 2023-08-21 23:43:22.179 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_ZipPostalCode
+[INFO ] 2023-08-21 23:43:22.299 CustomWebDriverEventListener:36 -> Finding element using: By.id: BillingNewAddress_PhoneNumber
+[INFO ] 2023-08-21 23:43:22.413 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:43:22.430 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: (//button[text()='Continue' ])[1]]
+[INFO ] 2023-08-21 23:43:22.462 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:22.462 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:43:22.981 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:22.982 CustomWebDriverEventListener:36 -> Finding element using: By.className: female
+[INFO ] 2023-08-21 23:43:23.003 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[1]
+[INFO ] 2023-08-21 23:43:23.012 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> class name: female]
+[INFO ] 2023-08-21 23:43:23.052 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Next Day Air ($0.00)']
+[INFO ] 2023-08-21 23:43:23.067 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.067 CustomWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:43:23.079 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: //label[text()='Next Day Air ($0.00)']]
+[INFO ] 2023-08-21 23:43:23.119 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.119 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:43:23.144 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: (//button[text()='Continue' ])[3]]
+[INFO ] 2023-08-21 23:43:23.166 CustomWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:43:23.190 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.191 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:43:23.251 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:23.280 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:23.299 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:23.313 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:23.357 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "9"]]
+[INFO ] 2023-08-21 23:43:23.384 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.384 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:23.405 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:23.420 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:23.439 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:23.474 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:43:23.492 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.492 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:23.515 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:23.534 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:23.556 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:23.606 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "1999"]]
+[INFO ] 2023-08-21 23:43:23.626 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.627 CustomWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:43:23.731 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[3]
+[INFO ] 2023-08-21 23:43:23.766 CustomWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:43:23.766 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //label[text()='Credit Card']
+[INFO ] 2023-08-21 23:43:23.784 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: //label[text()='Credit Card']]
+[INFO ] 2023-08-21 23:43:23.823 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.824 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:43:23.851 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: (//button[text()='Continue' ])[4]]
+[INFO ] 2023-08-21 23:43:23.861 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:23.885 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:23.891 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.892 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:43:23.902 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> id: Newsletter]
+[INFO ] 2023-08-21 23:43:23.944 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:23.945 CustomWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:43:24.010 CustomWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:43:24.081 CustomWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:43:24.097 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (c1100c4107c53281f26d44cc123a4b8b)] -> id: register-button]
+[INFO ] 2023-08-21 23:43:24.437 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[4]
+[INFO ] 2023-08-21 23:43:24.489 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:43:24.512 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:43:24.527 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:43:24.544 CustomWebDriverEventListener:36 -> Finding element using: By.id: CreditCardType
+[INFO ] 2023-08-21 23:43:24.591 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardholderName
+[INFO ] 2023-08-21 23:43:24.648 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:43:24.665 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:43:24.683 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:43:24.711 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireMonth
+[INFO ] 2023-08-21 23:43:24.816 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> id: ExpireMonth]] -> xpath: .//option[@value = "2"]]
+[INFO ] 2023-08-21 23:43:24.854 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:24.855 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:43:24.865 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:24.866 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:43:24.896 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:43:24.922 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:43:24.975 CustomWebDriverEventListener:36 -> Finding element using: By.id: ExpireYear
+[INFO ] 2023-08-21 23:43:25.065 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> id: ExpireYear]] -> xpath: .//option[normalize-space(.) = "2024"]]
+[INFO ] 2023-08-21 23:43:25.110 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:25.111 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardNumber
+[INFO ] 2023-08-21 23:43:25.242 CustomWebDriverEventListener:36 -> Finding element using: By.id: CardCode
+[INFO ] 2023-08-21 23:43:25.336 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:43:25.358 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: (//button[text()='Continue' ])[5]]
+[INFO ] 2023-08-21 23:43:25.409 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:25.409 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:43:25.943 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Continue' ])[5]
+[INFO ] 2023-08-21 23:43:26.007 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:43:26.040 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (d01f3ffe2f441d5c6bb4004c00e2414c)] -> xpath: (//button[text()='Confirm'])]
+[INFO ] 2023-08-21 23:43:26.058 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:26.119 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:26.119 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:43:26.669 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: (//button[text()='Confirm'])
+[INFO ] 2023-08-21 23:43:26.899 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@Class='section order-completed']/div
+[INFO ] 2023-08-21 23:43:27.760 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:43:27.787 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> link text: Register]
+[INFO ] 2023-08-21 23:43:28.852 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:28.852 CustomWebDriverEventListener:36 -> Finding element using: By.className: female
+[INFO ] 2023-08-21 23:43:28.876 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> class name: female]
+[INFO ] 2023-08-21 23:43:28.913 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:28.913 CustomWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:43:29.031 CustomWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:43:29.102 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:29.130 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:29.146 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:29.164 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:29.199 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "3"]]
+[INFO ] 2023-08-21 23:43:29.220 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:29.220 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:29.240 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:29.251 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:29.267 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:29.299 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:43:29.316 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:29.316 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:29.344 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:29.361 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:29.383 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:29.433 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "2000"]]
+[INFO ] 2023-08-21 23:43:29.448 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:29.448 CustomWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:43:29.533 CustomWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:43:29.609 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:29.632 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:29.643 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> id: Newsletter]
+[INFO ] 2023-08-21 23:43:29.674 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:29.675 CustomWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:43:29.735 CustomWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:43:29.803 CustomWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:43:29.822 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (505ab381015958270febd6a0e706528f)] -> id: register-button]
+[INFO ] 2023-08-21 23:43:30.549 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:30.549 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:43:31.663 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:33.502 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:43:33.537 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (1e411e526329b3510e04cc205a6f8267)] -> link text: Register]
+[INFO ] 2023-08-21 23:43:34.619 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:34.619 CustomWebDriverEventListener:36 -> Finding element using: By.className: male
+[INFO ] 2023-08-21 23:43:34.644 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (1e411e526329b3510e04cc205a6f8267)] -> class name: male]
+[INFO ] 2023-08-21 23:43:34.685 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:34.685 CustomWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:43:34.791 CustomWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:43:34.860 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:34.883 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:34.900 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:34.923 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:34.976 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (1e411e526329b3510e04cc205a6f8267)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "2"]]
+[INFO ] 2023-08-21 23:43:35.006 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:35.006 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:35.042 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:35.064 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:35.099 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:35.169 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (1e411e526329b3510e04cc205a6f8267)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:43:35.196 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:35.197 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:35.217 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:35.232 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:35.250 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:35.290 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (1e411e526329b3510e04cc205a6f8267)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "2001"]]
+[INFO ] 2023-08-21 23:43:35.305 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:35.305 CustomWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:43:35.383 CustomWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:43:35.450 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:35.466 CustomWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:43:35.530 CustomWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:43:35.592 CustomWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:43:35.606 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (1e411e526329b3510e04cc205a6f8267)] -> id: register-button]
+[INFO ] 2023-08-21 23:43:36.311 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:36.311 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']
+[INFO ] 2023-08-21 23:43:37.336 CustomWebDriverEventListener:16 -> Navigating to: https://demo.nopcommerce.com
+[INFO ] 2023-08-21 23:43:39.555 CustomWebDriverEventListener:36 -> Finding element using: By.linkText: Register
+[INFO ] 2023-08-21 23:43:39.584 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> link text: Register]
+[INFO ] 2023-08-21 23:43:40.656 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:40.656 CustomWebDriverEventListener:36 -> Finding element using: By.className: female
+[INFO ] 2023-08-21 23:43:40.681 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> class name: female]
+[INFO ] 2023-08-21 23:43:40.734 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:40.734 CustomWebDriverEventListener:36 -> Finding element using: By.id: FirstName
+[INFO ] 2023-08-21 23:43:40.821 CustomWebDriverEventListener:36 -> Finding element using: By.id: LastName
+[INFO ] 2023-08-21 23:43:40.902 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:40.929 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:40.943 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:40.962 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthDay']
+[INFO ] 2023-08-21 23:43:41.015 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> xpath: //select[@name='DateOfBirthDay']]] -> xpath: .//option[@value = "10"]]
+[INFO ] 2023-08-21 23:43:41.043 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:41.043 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:41.064 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:41.077 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:41.090 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthMonth']
+[INFO ] 2023-08-21 23:43:41.121 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> xpath: //select[@name='DateOfBirthMonth']]] -> xpath: .//option[@value = "5"]]
+[INFO ] 2023-08-21 23:43:41.137 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:41.137 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:41.150 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:41.161 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:41.172 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //select[@name='DateOfBirthYear']
+[INFO ] 2023-08-21 23:43:41.199 CustomWebDriverEventListener:56 -> Clicking element: [[[[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> xpath: //select[@name='DateOfBirthYear']]] -> xpath: .//option[@value = "1990"]]
+[INFO ] 2023-08-21 23:43:41.211 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:41.211 CustomWebDriverEventListener:36 -> Finding element using: By.id: Email
+[INFO ] 2023-08-21 23:43:41.286 CustomWebDriverEventListener:36 -> Finding element using: By.id: Company
+[INFO ] 2023-08-21 23:43:41.359 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:41.375 CustomWebDriverEventListener:36 -> Finding element using: By.id: Newsletter
+[INFO ] 2023-08-21 23:43:41.384 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> id: Newsletter]
+[INFO ] 2023-08-21 23:43:41.411 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:41.411 CustomWebDriverEventListener:36 -> Finding element using: By.id: Password
+[INFO ] 2023-08-21 23:43:41.460 CustomWebDriverEventListener:36 -> Finding element using: By.id: ConfirmPassword
+[INFO ] 2023-08-21 23:43:41.513 CustomWebDriverEventListener:36 -> Finding element using: By.id: register-button
+[INFO ] 2023-08-21 23:43:41.523 CustomWebDriverEventListener:56 -> Clicking element: [[ChromeDriver: chrome on windows (37d72a3bf35f2cfee6a0196e705638da)] -> id: register-button]
+[INFO ] 2023-08-21 23:43:42.188 CustomWebDriverEventListener:61 -> Element clicked!
+[INFO ] 2023-08-21 23:43:42.189 CustomWebDriverEventListener:36 -> Finding element using: By.xpath: //div[@class='result']

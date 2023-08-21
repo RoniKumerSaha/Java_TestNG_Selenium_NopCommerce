@@ -6,8 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 
-public class DriverSetUP {
+public class DriverSetup {
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
     public static void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
@@ -18,21 +19,21 @@ public class DriverSetUP {
         driver.set(setEventListener(driver.get()));
     }
 
-    public static WebDriver setEventListener(WebDriver driver){
-        MyWebDriverEventListener myWebdriverEventListener = new MyWebDriverEventListener();
+    public static WebDriver setEventListener(WebDriver driver) {
+        CustomWebDriverEventListener myWebdriverEventListener = new CustomWebDriverEventListener();
         return new EventFiringDecorator(myWebdriverEventListener).decorate(driver);
     }
 
-    public static void gotoHomePage(){
+    public static void gotoHomePage() {
         setDriver();
         getWebDriver().get("https://demo.nopcommerce.com");
     }
 
-    public static WebDriver getWebDriver(){
+    public static WebDriver getWebDriver() {
         return driver.get();
     }
 
-    public static void quitBrowser(){
+    public static void quitBrowser() {
         getWebDriver().quit();
     }
 }

@@ -3,11 +3,10 @@ package automation.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.HashMap;
 
-public class CheckoutPage extends BasePage{
+public class CheckoutPage extends BasePage {
     @FindBy(id = "BillingNewAddress_FirstName")
     WebElement firstNameInput;
 
@@ -74,7 +73,7 @@ public class CheckoutPage extends BasePage{
     @FindBy(xpath = "//div[@Class='section order-completed']/div")
     public WebElement confirmationText;
 
-    public void fillBillingAddressAndContinue(HashMap<String, String> billingData){
+    public void fillBillingAddressAndContinue(HashMap<String, String> billingData) {
         firstNameInput.sendKeys(billingData.get("firstname"));
         lastNameInput.sendKeys(billingData.get("lastname"));
         emailInput.sendKeys(billingData.get("email"));
@@ -88,19 +87,19 @@ public class CheckoutPage extends BasePage{
         waitForElementToVanish(continueToShipping);
     }
 
-    public void selectShippingOptionAndContinue(String shippingOption){
-        getWebDriver().findElement(By.xpath("//label[text()='" + shippingOption +"']")).click();
+    public void selectShippingOptionAndContinue(String shippingOption) {
+        getWebDriver().findElement(By.xpath("//label[text()='" + shippingOption + "']")).click();
         continueToPayment.click();
         waitForElementToVanish(continueToPayment);
     }
 
-    public void selectPaymentOptionAndContinue(String paymentOption){
-        getWebDriver().findElement(By.xpath("//label[text()='" + paymentOption +"']")).click();
+    public void selectPaymentOptionAndContinue(String paymentOption) {
+        getWebDriver().findElement(By.xpath("//label[text()='" + paymentOption + "']")).click();
         continueCardDetails.click();
         waitForElementToVanish(continueCardDetails);
     }
 
-    public void enterCardInfo(HashMap<String, String> cardData){
+    public void enterCardInfo(HashMap<String, String> cardData) {
         selectDropdown(cardTypeDropdown).selectByVisibleText(cardData.get("cardType"));
         cardHolderInput.sendKeys(cardData.get("cardholder"));
         selectDropdown(expireMonthDropdown).selectByValue(cardData.get("expireMonth"));
@@ -111,7 +110,7 @@ public class CheckoutPage extends BasePage{
         waitForElementToVanish(continueToConfirmOrder);
     }
 
-    public void confirmOder(){
+    public void confirmOder() {
         confirmButton.click();
         waitForElementToVanish(confirmButton);
     }

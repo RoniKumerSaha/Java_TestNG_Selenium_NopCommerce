@@ -2,9 +2,8 @@ package automation.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
-public class RegistrationPage extends BasePage{
+public class RegistrationPage extends BasePage {
 
     @FindBy(className = "female")
     WebElement genderOptionFemale;
@@ -48,47 +47,47 @@ public class RegistrationPage extends BasePage{
     @FindBy(xpath = "//div[@class='result']")
     public WebElement confirmationMessage;
 
-    public void selectGender(String gender){
-        if(gender.equalsIgnoreCase("Male")){
+    public void selectGender(String gender) {
+        if (gender.equalsIgnoreCase("Male")) {
             genderOptionMale.click();
-        }else {
+        } else {
             genderOptionFemale.click();
         }
     }
 
-    public void enterFullName(String firstname, String lastname){
+    public void enterFullName(String firstname, String lastname) {
         firstNameInput.sendKeys(firstname);
         lastNameInput.sendKeys(lastname);
     }
 
-    public void selectDateOfBirth(String date){
+    public void selectDateOfBirth(String date) {
         selectDropdown(dayOption).selectByValue(String.valueOf(Integer.parseInt(date.split("/")[0])));
         selectDropdown(monthOption).selectByValue(String.valueOf(Integer.parseInt(date.split("/")[1])));
         selectDropdown(yearOption).selectByValue(String.valueOf(Integer.parseInt(date.split("/")[2])));
     }
 
-    public void enterEmail(String email){
+    public void enterEmail(String email) {
         emailInput.sendKeys(email);
     }
 
-    public void enterCompanyDetails(String companyDetails){
+    public void enterCompanyDetails(String companyDetails) {
         companyDetailsInput.sendKeys(companyDetails);
     }
 
-    public void setNewsLetterStatus(String status){
-        if(status.equalsIgnoreCase("Checked") && (!newsletterCheckbox.isSelected())){
+    public void setNewsLetterStatus(String status) {
+        if (status.equalsIgnoreCase("Checked") && (!newsletterCheckbox.isSelected())) {
             newsletterCheckbox.click();
         } else if (status.equalsIgnoreCase("Unchecked") && newsletterCheckbox.isSelected()) {
             newsletterCheckbox.click();
         }
     }
 
-    public void setPasswordAndConfirm(String password){
+    public void setPasswordAndConfirm(String password) {
         passwordInput.sendKeys(password);
         confirmPasswordInput.sendKeys(password);
     }
 
-    public void clickRegisterButton(){
+    public void clickRegisterButton() {
         submitButton.click();
     }
 

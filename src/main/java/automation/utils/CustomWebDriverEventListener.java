@@ -9,8 +9,9 @@ import org.openqa.selenium.support.events.WebDriverListener;
 
 import java.util.List;
 
-public class MyWebDriverEventListener implements WebDriverListener{
-    public static Logger logger = LogManager.getLogger(MyWebDriverEventListener.class);
+public class CustomWebDriverEventListener implements WebDriverListener {
+    public static Logger logger = LogManager.getLogger(CustomWebDriverEventListener.class);
+
     @Override
     public void beforeGet(WebDriver driver, String url) {
         logger.info("Navigating to: " + url);
