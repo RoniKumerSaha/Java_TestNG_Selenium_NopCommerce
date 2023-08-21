@@ -1,0 +1,6 @@
+gender,firstname,lastname,dob,companyname,status,password,message
+Male,Test1,User1,20/05/1995,Test Company1,Checked,pass@1234,Your registration completed
+Female,Test2,User2,9/5/1999,Test Company2,Unchecked,pass@1234,Your registration completed
+Female,Test3,User3,3/5/2000,Test Company3,Unchecked,pass@1234,Your registration completed
+Male,Test4,User4,2/5/2001,Test Company4,Checked,pass@1234,Your registration completed
+Female,Test5,User5,10/5/1990,Test Company5,Unchecked,pass@1234,Your registration completed
