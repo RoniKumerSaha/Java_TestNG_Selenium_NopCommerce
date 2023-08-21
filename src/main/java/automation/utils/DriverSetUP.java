@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 
-public class DriverSetup {
+public class DriverSetUP {
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static void setDriver() {

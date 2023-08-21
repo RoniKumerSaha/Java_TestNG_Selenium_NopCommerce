@@ -46,24 +46,24 @@ public class ReportListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        if (DriverSetup.getWebDriver() != null)
-            extent.createTest(testName.get()).log(Status.PASS, MediaEntityBuilder.createScreenCaptureFromBase64String(((TakesScreenshot) DriverSetup.getWebDriver()).getScreenshotAs(OutputType.BASE64)).build());
+        if (DriverSetUP.getWebDriver() != null)
+            extent.createTest(testName.get()).log(Status.PASS, MediaEntityBuilder.createScreenCaptureFromBase64String(((TakesScreenshot) DriverSetUP.getWebDriver()).getScreenshotAs(OutputType.BASE64)).build());
         else
             extent.createTest(testName.get()).log(Status.PASS, result.getThrowable().getLocalizedMessage());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        if (DriverSetup.getWebDriver() != null)
-            extent.createTest(testName.get()).log(Status.FAIL, result.getThrowable().getLocalizedMessage(), MediaEntityBuilder.createScreenCaptureFromBase64String(((TakesScreenshot) DriverSetup.getWebDriver()).getScreenshotAs(OutputType.BASE64)).build());
+        if (DriverSetUP.getWebDriver() != null)
+            extent.createTest(testName.get()).log(Status.FAIL, result.getThrowable().getLocalizedMessage(), MediaEntityBuilder.createScreenCaptureFromBase64String(((TakesScreenshot) DriverSetUP.getWebDriver()).getScreenshotAs(OutputType.BASE64)).build());
         else
             extent.createTest(testName.get()).log(Status.FAIL, result.getThrowable().getLocalizedMessage());
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        if (DriverSetup.getWebDriver() != null)
-            extent.createTest(testName.get()).log(Status.SKIP, result.getThrowable().getLocalizedMessage(), MediaEntityBuilder.createScreenCaptureFromBase64String(((TakesScreenshot) DriverSetup.getWebDriver()).getScreenshotAs(OutputType.BASE64)).build());
+        if (DriverSetUP.getWebDriver() != null)
+            extent.createTest(testName.get()).log(Status.SKIP, result.getThrowable().getLocalizedMessage(), MediaEntityBuilder.createScreenCaptureFromBase64String(((TakesScreenshot) DriverSetUP.getWebDriver()).getScreenshotAs(OutputType.BASE64)).build());
         else
             extent.createTest(testName.get()).log(Status.SKIP, result.getThrowable().getLocalizedMessage());
     }

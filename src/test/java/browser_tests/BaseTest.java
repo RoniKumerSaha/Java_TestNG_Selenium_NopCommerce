@@ -1,7 +1,7 @@
 package browser_tests;
 
 import automation.pages.BasePage;
-import automation.utils.DriverSetup;
+import automation.utils.DriverSetUP;
 import automation.utils.ReportListener;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,7 +18,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        DriverSetup.gotoHomePage();
+        DriverSetUP.gotoHomePage();
     }
 
     @AfterMethod()
@@ -26,7 +26,7 @@ public class BaseTest {
         if (ITestResult.FAILURE == result.getStatus()) {
             getScreenShot(result);
         }
-        DriverSetup.quitBrowser();
+        DriverSetUP.quitBrowser();
     }
 
 

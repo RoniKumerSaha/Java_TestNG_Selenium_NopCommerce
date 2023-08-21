@@ -1,6 +1,6 @@
 package automation.pages;
 
-import automation.utils.DriverSetup;
+import automation.utils.DriverSetUP;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +13,7 @@ import java.time.Duration;
 
 import static org.openqa.selenium.support.PageFactory.initElements;
 
-public class BasePage extends DriverSetup {
+public class BasePage extends DriverSetUP {
 
     public BasePage() {
         initElements(getWebDriver(), this);
