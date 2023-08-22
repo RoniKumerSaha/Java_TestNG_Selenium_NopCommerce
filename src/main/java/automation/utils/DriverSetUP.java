@@ -4,18 +4,28 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 
 public class DriverSetUP {
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    public static void setDriver() {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--headless");
-        options.addArguments("--silent");
-        options.addArguments("--remote-allow-origins=*");
-        driver.set(new ChromeDriver(options));
+    public static void setDriver(String browserName) {
+        if (browserName.equalsIgnoreCase("Chrome")) {
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            //chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("--silent");
+            chromeOptions.addArguments("--remote-allow-origins=*");
+            driver.set(new ChromeDriver(chromeOptions));
+        } else if (browserName.equalsIgnoreCase("Firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver.set(new FirefoxDriver());
+        } else {
+            WebDriverManager.edgedriver().setup();
+            driver.set(new EdgeDriver());
+        }
         driver.set(setEventListener(driver.get()));
     }
 
@@ -24,8 +34,8 @@ public class DriverSetUP {
         return new EventFiringDecorator(myWebdriverEventListener).decorate(driver);
     }
 
-    public static void gotoHomePage() {
-        setDriver();
+    public static void openApplication(String browserName) {
+        setDriver(browserName);
         getWebDriver().get("https://demo.nopcommerce.com");
     }
 
