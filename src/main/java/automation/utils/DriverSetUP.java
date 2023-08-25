@@ -8,6 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 
+
 public class DriverSetUP {
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
@@ -34,9 +35,9 @@ public class DriverSetUP {
         return new EventFiringDecorator(myWebdriverEventListener).decorate(driver);
     }
 
-    public static void openApplication(String browserName) {
-        setDriver(browserName);
-        getWebDriver().get("https://demo.nopcommerce.com");
+    public static void openApplication() {
+        setDriver(ConfigHelper.getValue("BROWSER"));
+        getWebDriver().get(ConfigHelper.getValue("BASE_URL"));
     }
 
     public static WebDriver getWebDriver() {

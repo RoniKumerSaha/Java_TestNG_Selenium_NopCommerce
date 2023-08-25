@@ -18,7 +18,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        DriverSetUP.openApplication("Firefox");
+        DriverSetUP.openApplication();
     }
 
     @AfterMethod()
